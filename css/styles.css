@@ -1,0 +1,17 @@
+body, html {
+  border: 1px solid black;
+  height: 100%; }
+
+main {
+  border: 1px solid black;
+  margin: auto;
+  height: 80%; }
+
+#top, #bottom {
+  display: block;
+  margin: auto; }
+
+#left, #right, article {
+  display: inline-block; }
+
+/*# sourceMappingURL=styles.css.map */
