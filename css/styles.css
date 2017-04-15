@@ -8,7 +8,7 @@ main {
   background-image: url("../images/exclusive-paper.png");
   margin: auto;
   height: 100%;
-  width: 60%;
+  width: 80%;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.6);
   text-align: center; }
 
@@ -27,6 +27,8 @@ img {
 #bottom {
   position: absolute;
   bottom: 0; }
+  #bottom img {
+    vertical-align: bottom; }
 
 #left, #right, article {
   display: inline-block; }
@@ -42,6 +44,9 @@ article {
     height: 99%; }
 
   article {
-    font-size: 2em; } }
+    font-size: 2em; }
+
+  #bottom {
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
